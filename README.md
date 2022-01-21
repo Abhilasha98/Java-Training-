@@ -5,14 +5,17 @@ Download The Above Content and Read It.
 For Airline Project These are table we required in oracle
 
 create table book(name varchar2(30),email varchar2(30),phoneno varchar2(30),address varchar2(30),age varchar2(30),source varchar2(30),destnation varchar2(30),price varchar2(30));
+
 create table fare(fname varchar2(30),fdate varchar2(30),source varchar2(30),destination varchar2(30),price varchar2(30),ftime varchar2(30));
 insert into fare values('SpiceJet','2021-03-02','Pune','Hydrabad','15k','2:00PM')
 insert into fare values('Indigo','2022-07-04','Banglore','Delhi','5k','8:00AM')
 insert into fare values('Air India','2022-09-08','India','America','10k','6:00AM')
+
 create table search(fname varchar2(30),fdate varchar2(30),source varchar2(30),destination varchar2(30),price varchar2(30));
 insert into search values('air india','2022-06-09','a','b','26000');
 insert into search values('indigo','2022-02-04','lxr','bang','13000');
 insert into search values('air india','2022-06-09','hyd','mumb','26000');
+
 create table checkin(bookid varchar2(30),pname varchar2(30),fname varchar2(30),fdate varchar2(30),source varchar2(30),destination varchar2(30),price varchar2(30),ftime varchar2(30));
 insert into checkin values('101','Jhon','SpiceJet','2021-03-02','Pune','Hydrabad','15k','2:00PM')
 insert into checkin values('102','Jhon','Air India','2021-08-09','America','India','10k','6:00AM')
