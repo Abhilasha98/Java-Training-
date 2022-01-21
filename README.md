@@ -3,6 +3,7 @@
 Download The Above Content and Read It.
 
 For Airline Project These are table we required in oracle
+
 create table book(name varchar2(30),email varchar2(30),phoneno varchar2(30),address varchar2(30),age varchar2(30),source varchar2(30),destnation varchar2(30),price varchar2(30));
 create table fare(fname varchar2(30),fdate varchar2(30),source varchar2(30),destination varchar2(30),price varchar2(30),ftime varchar2(30));
 insert into fare values('SpiceJet','2021-03-02','Pune','Hydrabad','15k','2:00PM')
